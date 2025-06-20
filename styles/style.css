@@ -1,0 +1,36 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    border: 1px solid black;
+    padding: 5vh;
+    background: linear-gradient(lightblue, white, lightblue);
+}
+
+#logo {
+    display: inline-block;
+    margin-left: 5vw;
+}
+
+nav {
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin-left: 15vw;
+}
+
+.nav-link{
+    text-decoration: none;
+    border: 5px solid black;
+    padding: 15px;
+    margin-left: 5vw;
+    border-radius: 150px;
+    background-color: rgb(247, 237, 226);
+}
+
+.event{
+     border: 1px solid blue;
+    border-radius: 5px;
+    padding: 1vh 2vw;
+    margin-top: 1vh;
+}
