@@ -5,12 +5,13 @@
 header{
     border: 1px solid black;
     padding: 5vh;
-    background: linear-gradient(lightblue, white, lightblue);
+    background: linear-gradient(rgb(67, 87, 12));
 }
 
-#logo {
-    display: inline-block;
-    margin-left: 5vw;
+#headtitle {
+    /* display: inline-block; */
+    margin: 3vw;
+    border: 1px solid black;
 }
 
 nav {
@@ -29,8 +30,57 @@ nav {
 }
 
 .event{
-     border: 1px solid blue;
+    border: 1px solid blue;
     border-radius: 5px;
     padding: 1vh 2vw;
-    margin-top: 1vh;
+    margin: 10vh;
+}
+
+.party-scene{
+    border-radius: 15px;
+    height: 300px;
+    width: 520px;
+
+}
+
+fieldset{
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.personal{
+    margin: 3px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.event-info{
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.buttons{
+    margin: 25px;
+    border-radius: 20%;
+    padding: 15px;
+    font-size: medium;
+}
+
+#signup {
+    border: 1px solid blue;
+    background-color: rgb(197, 226, 159);
+    border-radius: 8%;
+    padding: 1vh 2vw;
+    margin: 10vh 25vw;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: rgb(197, 226, 159);
+    display: flex;
+    justify-content: center;
 }
