@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-        <p id="logo">Swamp Raves and Logo</p>
+        <!-- <p id="logoo">Swamp Raves and Logo</p> -->
+        <img src="./assets/swamp_rave.png" alt="Swamp Rave" id="headtitle">
         <nav>
             <a class="nav-link" href="">ABOUT</a>
             <a class="nav-link" href="">PAST EVENTS</a>
@@ -22,29 +23,34 @@
          DATE, TIME, LOCATION
          EVENT HIGHLIST - USE A LIST
          EVENT RELATED IMAGE -->
-         <h1>SWAMP RAVES</h1>
+         <h1>UPCOMING SWAMP RAVES:</h1>
          <div class="event">
-            <h2>UPCOMING EVENT:</h2>
-            <h3>ALLSTARS ALL NIGHT</h3>
-            <p>DESCRIPTION
-            DATE: On the anniversary of Lord Farquaad's swallowing
-            TIME: Sunset
-            LOCATION: The Swamp outside town. Turn left at the ogre signs. Insert Map
-            EVENT HIGHLIST - USE A LIST
-            EVENT RELATED IMAGE
+            <!-- <h2>UPCOMING EVENT:</h2> -->
+            <h2>ALLSTARS ALL NIGHT</h2>
+            <!-- have at least three BIG event images here -->
+            <img src="" alt="party pic one">
+            <img src="" alt="party pic two">
+            <img src="" alt="party pic three">
+            <p>Let's get shrekked with the coolest magical creatures in town. We'll be dancing all night under the stars!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore debitis facere fuga? Doloremque obcaecati aut provident repudiandae commodi! Praesentium odio consequuntur minima, reiciendis fuga minus nobis quisquam architecto eos quos!
             </p>
+            <p>DATE: On the anniversary of Lord Farquaad's swallowing </p>
+            <p>TIME: Sunset</p>
+            <p>LOCATION: The Swamp outside town. Turn left at the ogre signs.</p> 
+            <img src="" alt="Directions on how to arrive at the venue."> 
+            
             <fieldset>
-                <legend>Event Lineup</legend>
-                <p>have at least three BIG images here</p>
+                <legend>Lineup</legend>
                 <ul>
+                    <li>Fairy Godmother</li>
                     <li>Gingy</li>
                     <li>Pinocchio and the Three Blind Mice</li>
-                    <li>A third group</li>
-                    <li>Someone else</li>
+                    <li>Magic Mirror</li>
+                    <li>Donkey and the Dwarves</li>
                 </ul>
             </fieldset>
 
-            <p>Just a carriage ride away.</p>
+            <p> Put down the pitchforks and pick up the glowsticks! We're just a carriage ride away.</p>
         </div>
 
         <!-- SIGNUP FORM 
@@ -59,22 +65,24 @@
          RESET-->
 
          
-         <h2>SIGNUP FORM</h2>
-         <form action="">
+         
+         <form action="" id="signup">
+            <h2>SIGNUP FORM</h2>
             <fieldset>
                 <legend>Personal Info</legend>
 
-                <label for="firstname">First Name: </label>
-                <input type="text" placeholder="Lord" id="firstname" name="firstname">
+                <label for="firstname"></label>
+                <input class="personal" type="text" placeholder="First Name" id="firstname" name="firstname"><br>
 
-                <label for="lastname">Last Name: </label>
-                <input type="text" placeholder="Farquaad"name="lastname" id="lastname">
+                <label for="lastname"></label>
+                <input class="personal" type="text" placeholder="Last Name"name="lastname" id="lastname"><br>
 
-                <label for="email">Ye Olde Email: </label>
-                <input type="email" id="email" name="email">
+                <label for="email"></label>
+                <input class="personal" type="email" placeholder="Ye Olde Email" id="email" name="email">
 
+                <p>Are you old enough to party in the swamp?</p>
                 <label for="birthdate">Birthdate: </label>
-                <input type="date" id="birthdate" name="birthdate">
+                <input class="personal" type="date" id="birthdate" name="birthdate" required>
             </fieldset>
             <fieldset>
                 <legend>Ticket Type</legend>
@@ -94,27 +102,29 @@
                 <legend>Event Info</legend>
 
                 <label for="research">How did you hear of us? </label>
-                <select id="research" name="research">
+                <select class="event-info" id="research" name="research">
                     <option disabled selected hidden>Select One</option>
                     <option value="flier">Duloc Townsquare flier</option>
                     <option value="radio">Traveling Musicians</option>
                     <option value="gossip">Donkey told me</option>
                     <option value="other">Other</option>
                 </select>
+                <br>
 
-                <label for="comment">Comments: </label>
-                <input type="text" id="comment" name="comment">
+                <label for="comment">Song Requests: </label>
+                <input class="event-info" type="text" id="comment" name="comment">
+                <br>
 
-                <label for="subscribe">Subscribe to the Swamp!</label>
-                <input type="button" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to The Swamp Rave!</label>
+                <input class="event-info" type="checkbox" id="subscribe" name="subscribe">
 
             </fieldset>
 
             <label for="submit"></label>
-            <input type="submit" id="submit" name="submit">
+            <input class="buttons" type="submit" id="submit" name="submit">
 
             <label for="reset"></label>
-            <input type="reset" id="reset" name="reset">
+            <input class="buttons" type="reset" id="reset" name="reset">
 
          </form>
 
