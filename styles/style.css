@@ -56,17 +56,30 @@ fieldset{
     padding: 5px;
 }
 
+.personal:focus{
+    background-color: bisque;
+}
+
 .event-info{
     margin: 5px;
     border-radius: 15px;
     padding: 5px;
 }
 
+.event-info:focus{
+    background-color: bisque;
+}
+
 .buttons{
     margin: 25px;
-    border-radius: 20%;
+    border-radius: 15px;
     padding: 15px;
     font-size: medium;
+}
+
+.buttons:hover{
+    background-color: green;
+    cursor: pointer;
 }
 
 #signup {
