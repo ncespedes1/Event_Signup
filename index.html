@@ -9,13 +9,17 @@
 <body>
     <header>
         <!-- <p id="logoo">Swamp Raves and Logo</p> -->
-        <br>
+        <br><br>
         <img src="./assets/shreklogo.png" alt="logo" id="logo"><br>
         <img src="./assets/swamp_rave.png" alt="Swamp Rave" id="headtitle"><br>
         <nav>
             <a class="nav-link" href="">ABOUT</a>
             <a class="nav-link" href="">PAST EVENTS</a>
             <!-- IM A BELIEVER AND  -->
+            <a class="nav-link" href="">BLOG</a>
+            <a class="nav-link" href="">JOIN A LINEUP</a>
+            <a class="nav-link" href="">REQUEST A LOCATION</a>
+            <a class="nav-link" href="">MY TICKETS</a>
             <a class="nav-link" href="">LOGIN</a>
         </nav>
     </header>
@@ -25,35 +29,48 @@
          DATE, TIME, LOCATION
          EVENT HIGHLIST - USE A LIST
          EVENT RELATED IMAGE -->
-         <h1>UPCOMING SWAMP RAVES:</h1>
+         <div id="upcoming">
+            <h1>UPCOMING SWAMP RAVES:</h1>
+         </div>
+        
          <div class="event">
             <!-- <h2>UPCOMING EVENT:</h2> -->
             <h2>ALLSTARS ALL NIGHT</h2>
             <!-- have at least three BIG event images here -->
-            <img class="party-scene" src="./assets/party6.jpg" alt="party pic one">
-            <img class="party-scene" src="./assets/party4.png" alt="party pic two">
-            <img class="party-scene" src="./assets/party5.png" alt="party pic three">
-            <img class="party-scene" src="./assets/party7.avif" alt="party pic four">
-            <p>Let's get shrekked with the coolest magical creatures in town. We'll be dancing all night under the stars!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore debitis facere fuga? Doloremque obcaecati aut provident repudiandae commodi! Praesentium odio consequuntur minima, reiciendis fuga minus nobis quisquam architecto eos quos!
-            </p>
-            <p>DATE: On the anniversary of Lord Farquaad's swallowing </p>
-            <p>TIME: Sunset</p>
-            <p>LOCATION: The Swamp outside town. Turn left at the ogre signs.</p> 
-            <img src="" alt="Directions on how to arrive at the venue."> 
+            <div class="image-gallery">
+                <img class="party-scene" src="./assets/party6.jpg" alt="party pic one">
+                <img class="party-scene" src="./assets/party4.png" alt="party pic two">
+                <img class="party-scene" src="./assets/party5.png" alt="party pic three">
+                <img class="party-scene" src="./assets/party7.avif" alt="party pic four">
+            </div>
             
             <fieldset>
                 <legend>Lineup</legend>
                 <ul>
                     <li>Fairy Godmother</li>
-                    <li>Gingy</li>
+                    <li>Gingy the Gingerbread Man</li>
+                    <li>Snow White</li>
                     <li>Pinocchio and the Three Blind Mice</li>
+                    <li>Puss in Boots</li>
                     <li>Magic Mirror</li>
-                    <li>Donkey and the Dwarves</li>
+                    <li>The Big Bad Wolf</li>
+                    <li>Donkey and the Seven Dwarves</li>
                 </ul>
             </fieldset>
-
-            <p> Put down the pitchforks and pick up the glowsticks! We're just a carriage ride away.</p>
+            <div class="description">
+                <p>Let's get shrekked with the coolest magical creatures in town. We'll be dancing all night under the stars! <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore debitis facere fuga? Doloremque obcaecati aut provident repudiandae commodi! Praesentium odio consequuntur minima, reiciendis fuga minus nobis quisquam architecto eos quos!</p>
+            </div>    
+            <div>
+                <p class="details"><strong>DATE: </strong> On the anniversary of Lord Farquaad's swallowing </p>
+                <p class="details"><strong>TIME: </strong> Gates open at Sunset</p>
+                <p class="details"><strong>LOCATION: </strong> The Swamp outside town. Turn left at the ogre signs.</p> 
+                <!-- <img src="" alt="Directions on how to arrive at the venue.">  -->
+            </div>
+            <div class="description">
+                <p> Put down the pitchforks and pick up the glowsticks! We're just a carriage ride away.</p>
+            </div>
+            
         </div>
 
         <!-- SIGNUP FORM 
