@@ -1,0 +1,195 @@
+*{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     */
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    background-color: black;
+    /* border: 1px solid black; */
+    /* background: linear-gradient(black, rgb(46, 117, 25),black,  black); */
+    /* background-image: url("/assets/discobg.jpg");
+    /* background-color: ; */
+}
+
+#logo{
+    height: 40vh;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    /* padding: 3px; */
+    border-radius: 50%;
+    border: 6px solid darkgreen;
+}
+
+#headtitle {
+    /* display: inline-block; */
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+nav {
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+    background-color: darkgreen;
+    text-align: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 10px 30px;
+    /* margin: 20px; */
+    /* border-radius: 150px; */
+    color: black;
+    
+}
+.nav-link:hover{
+    background-color: rgb(197, 226, 159);
+}
+
+body{
+    background-image: url("/assets/greenlights3.jpg");
+    background-position: center;
+}
+
+#upcoming{
+    background-color: black;
+    padding: 5px;
+
+}
+
+h1{
+    padding-left: 8%;
+    color: bisque;
+    font-weight: 800;
+    font-size: ;
+    /* background-color: black; */
+    /* background: linear-gradient(black, rgb(1, 46, 1), black); */
+}
+.event{
+    /* border: 1px solid blue; */
+    border-radius: 25px;
+    padding: 1vh 2vw;
+    margin: 10vh;
+    color: rgb(197, 226, 159);
+    /* background-color: rgb(101, 180, 36); */
+    background: linear-gradient(black,  darkgreen, darkgreen,  darkgreen, black);
+}
+
+h2{
+    text-align: center;
+    font-weight: 800;
+}
+
+.party-scene{
+    border-radius: 15px;
+    height: 300px;
+    width: 520px;
+    margin: 5px;
+}
+
+.image-gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ul{
+    columns: 2;
+    list-style-type: none;
+}
+
+li{
+    padding: 4px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.description{
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.details{
+    padding: 2vh 1vw;
+    margin: 1vh 20vw;
+    text-align: left;
+    color: black;
+    background-color:  rgb(197, 226, 159);
+    border-radius: 15px;
+}
+
+fieldset{
+    border-radius: 10px;
+    margin: 2%;
+}
+
+legend{
+    padding: 10px;
+}
+
+.personal{
+    margin: 3px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.personal:focus{
+    background-color: bisque;
+}
+
+.event-info{
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.event-info:focus{
+    background-color: bisque;
+}
+
+.buttons{
+    margin: 25px;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: medium;
+}
+
+.buttons:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+#signup {
+    /* border: 1px solid blue; */
+    background-color: rgb(197, 226, 159);
+    border-radius: 15px;
+    padding: 1vh 2vw;
+    margin: 10vh 25vw;
+    text-align: center;
+    color: black;
+    
+}
+
+#hidden {
+    display: none;
+    background-color: rgb(197, 226, 159);
+    border-radius: 15px;
+    padding: 1vh 2vw;
+    margin: 10vh 25vw;
+    text-align: center;
+    color: black;
+}
+
+footer{
+    background-color: rgb(197, 226, 159);
+    display: flex;
+    justify-content: center;
+}
