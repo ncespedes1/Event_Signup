@@ -178,6 +178,16 @@ legend{
     
 }
 
+#hidden {
+    display: none;
+    background-color: rgb(197, 226, 159);
+    border-radius: 15px;
+    padding: 1vh 2vw;
+    margin: 10vh 25vw;
+    text-align: center;
+    color: black;
+}
+
 footer{
     background-color: rgb(197, 226, 159);
     display: flex;
